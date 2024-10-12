@@ -1,0 +1,64 @@
+.Container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .quote {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .line {
+    width: 80%;
+    height: 2px;
+    background-color: #ddd;
+    margin: 20px auto;
+  }
+  
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .author {
+    font-size: 18px;
+    color: #777;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .icons img {
+    width: 30px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .icons img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .quote {
+      font-size: 20px;
+    }
+  
+    .author {
+      font-size: 16px;
+    }
+  
+    .icons img {
+      width: 25px;
+    }
+  }
